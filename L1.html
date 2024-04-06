@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="L1.css">
+</head>
+<body>
+
+    <div class="b1">
+        <div class="d1"><button> <a href="index.html">HOME</a></button></div>
+        <h1>Length and Distance</h1>
+    
+
+    <input type="text" placeholder=" CENTIMETERS TO METERS" id="ten"> <br> <br>
+    <button onclick="display()" id="nine">convert</button>
+    <h1 id="cat"></h1> </div>
+
+
+
+    <script>
+        function display(){
+        let a = document.querySelector("#ten").value
+       let b = document.querySelector("#cat")
+       b.innerHTML = a*0.01
+    }
+    </script>
+    
+</body>
+</html>

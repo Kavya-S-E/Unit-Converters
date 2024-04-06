@@ -1,0 +1,26 @@
+.b1{
+    
+    height: 800px;width: 100%;
+    background:linear-gradient(red,black);
+    color: white;font-size: 20px;
+    text-align: center;padding-top: 195px;
+
+}
+#ten{
+   height: 40px;width:250px
+   
+}
+#nine{
+    height: 40px;width:250px;
+    font-size: 35px; 
+    background: linear-gradient(black,red);
+    color: white;
+}
+
+.d1{
+    height: 50px;width:40px;
+    position: absolute;margin-top: -190px;
+    margin-left: 20px;
+    color:white
+    
+}
